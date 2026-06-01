@@ -1,0 +1,39 @@
+:root{font-family:Inter,ui-sans-serif,system-ui,Arial;background:#050505;color:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}.site{min-height:100vh;background:#050505;overflow-x:hidden}
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:14px 6%;background:rgba(5,5,5,.72);backdrop-filter:blur(18px);border-bottom:1px solid rgba(250,204,21,.14)}
+.brandWrap{display:flex;align-items:center;gap:14px}.brandWrap img{width:58px;height:58px;object-fit:cover;border-radius:16px;border:1px solid rgba(250,204,21,.32)}
+.brandText{font-weight:1000;font-size:26px;letter-spacing:-.04em}.brandText span{color:#facc15}.brandText small{display:block;font-size:9px;letter-spacing:.34em;color:#b6b6b6}
+nav{display:flex;align-items:center;gap:25px}nav a{color:#f4f4f5;text-decoration:none;font-weight:800}
+select{background:#111;border:1px solid #3f3f46;color:#fff;border-radius:12px;padding:9px}.menuBtn{display:none;background:transparent;border:0;color:#fff}
+.floatWhatsApp{position:fixed;right:24px;bottom:24px;z-index:60;background:#22c55e;color:#051b0d;text-decoration:none;padding:15px 18px;border-radius:999px;font-weight:1000;display:flex;gap:10px;align-items:center;box-shadow:0 18px 45px rgba(34,197,94,.28)}
+.hero{min-height:100vh;padding:130px 6% 70px;display:grid;grid-template-columns:1.15fr .85fr;gap:42px;align-items:center;position:relative}
+.heroBg{position:absolute;inset:0;background:radial-gradient(circle at 72% 25%,rgba(250,204,21,.28),transparent 27%),radial-gradient(circle at 20% 80%,rgba(34,197,94,.12),transparent 26%),linear-gradient(135deg,#050505,#111113 50%,#050505);z-index:0}
+.hero:after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:70px 70px;mask-image:linear-gradient(#000,transparent 90%);z-index:0}
+.heroText,.heroImage{position:relative;z-index:1}
+.pill,.mini{display:inline-flex;gap:9px;align-items:center;border:1px solid rgba(250,204,21,.35);background:rgba(250,204,21,.1);color:#fde047;padding:10px 14px;border-radius:999px;font-weight:800}
+.hero h1{font-size:clamp(44px,6.6vw,92px);line-height:.92;letter-spacing:-.07em;margin:26px 0 18px}
+.hero p{font-size:21px;line-height:1.55;color:#d4d4d8;max-width:690px}
+.heroStats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:30px 0}
+.heroStats div{background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:18px}
+.heroStats strong{display:block;color:#facc15;font-size:22px}.heroStats span{color:#a1a1aa;font-size:13px}
+.heroBtns{display:flex;gap:14px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 23px;border-radius:18px;font-weight:1000;text-decoration:none}
+.btn.gold{background:#facc15;color:#090909}.btn.dark{background:#151515;color:#fff;border:1px solid #303036}
+.heroImage{border-radius:34px;border:1px solid rgba(250,204,21,.26);box-shadow:0 40px 120px rgba(250,204,21,.14);overflow:visible;background:transparent;max-width:520px;margin-left:auto}
+.heroImage img{width:100%;height:auto;display:block;object-fit:contain;border-radius:28px}
+.section{padding:100px 6%;background:#080808}.sectionHead{text-align:center;margin-bottom:44px}.sectionHead span{color:#facc15;font-weight:1000;text-transform:uppercase;letter-spacing:.18em}
+.sectionHead h2,.splitText h2,.applyCard h2{font-size:clamp(34px,4.4vw,62px);letter-spacing:-.055em;line-height:1;margin:12px 0}
+.benefitGrid,.carGrid,.reviewGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.benefit,.review{background:linear-gradient(180deg,#151515,#0b0b0c);border:1px solid #27272a;border-radius:30px;padding:28px}
+.benefit svg{color:#facc15;width:40px;height:40px}.benefit h3,.carTile h3{font-size:24px;margin-bottom:8px}.benefit p,.carTile p,.review p,.applyCard p{color:#c9c9cf;line-height:1.6}
+.fleet{background:#050505}.carGrid{grid-template-columns:repeat(3,1fr)}.carTile{overflow:hidden;background:#111113;border:1px solid rgba(250,204,21,.18);border-radius:34px}
+.carTile img{width:100%;height:265px;object-fit:cover;display:block}.carTile div{padding:24px}.carTile b{color:#facc15}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;padding:100px 6%;background:radial-gradient(circle at 15% 20%,rgba(250,204,21,.14),transparent 30%),#09090b}
+.splitImage img{width:100%;border-radius:34px;border:1px solid rgba(250,204,21,.22)}
+.reqItem{display:flex;gap:12px;align-items:center;margin:13px 0;background:#121214;border:1px solid #27272a;padding:16px;border-radius:18px;font-weight:800}.reqItem svg{color:#22c55e}
+.reviews{padding:90px 6%;background:#050505}.stars{color:#facc15;font-size:22px}
+.apply{padding:100px 6%;background:linear-gradient(135deg,#facc15,#d6a500);color:#050505}
+.applyCard{display:grid;grid-template-columns:.9fr 1fr;gap:32px;max-width:1120px;margin:auto;background:#050505;color:#fff;border-radius:38px;padding:36px;border:1px solid rgba(0,0,0,.18);box-shadow:0 30px 90px rgba(0,0,0,.3)}
+.form input,.form textarea{width:100%;margin:7px 0;padding:16px;border-radius:16px;background:#151515;border:1px solid #3f3f46;color:#fff;font-size:16px}.form textarea{min-height:125px}
+.form button{width:100%;border:0;border-radius:17px;background:#22c55e;color:#061006;padding:16px;font-weight:1000;font-size:17px;display:flex;justify-content:center;gap:10px}
+footer{display:flex;justify-content:space-between;gap:24px;padding:42px 6%;background:#050505;color:#a1a1aa;border-top:1px solid #171717}footer svg{vertical-align:middle;color:#facc15}footer b{color:#fff}
+@media(max-width:980px){.hero,.split,.applyCard{grid-template-columns:1fr}.heroImage{max-width:100%;margin-left:0}.benefitGrid{grid-template-columns:repeat(2,1fr)}.carGrid,.reviewGrid{grid-template-columns:1fr}.heroStats{grid-template-columns:1fr}.nav{padding:12px 5%}.menuBtn{display:block}nav{display:none;position:absolute;top:87px;left:0;right:0;background:#050505;padding:22px;flex-direction:column;border-bottom:1px solid #27272a}nav.open{display:flex}.brandWrap img{width:50px;height:50px}.hero{padding:115px 5% 55px}.section,.split,.reviews,.apply{padding:70px 5%}footer{flex-direction:column}.floatWhatsApp{right:14px;bottom:14px;padding:13px 15px}.hero h1{font-size:46px}.hero p{font-size:18px}}
